@@ -1,0 +1,12 @@
+POST http://localhost:3000/expenses
+Content-Type: application/json
+
+{
+    "title": "Lunch",
+    "amount": 150,
+    "category": "Food"
+}
+
+###
+
+GET http://localhost:3000/expenses
